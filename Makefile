@@ -1,6 +1,6 @@
 CXX        = g++
-CXXFLAGS   = -Wall -Wextra -std=c++17 -O2
-DEBUGFLAGS = -Wall -Wextra -std=c++17 -g -O0 -fsanitize=address,undefined
+CXXFLAGS   = -Wall -Wextra -std=c++17 -O2 -lpthread
+DEBUGFLAGS = -Wall -Wextra -std=c++17 -g -O0 -fsanitize=address,undefined -lpthread
 
 SRCS = $(wildcard src/*.cpp)
 HDRS = $(wildcard src/*.hpp)
