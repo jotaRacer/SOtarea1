@@ -6,8 +6,8 @@ a la vez.
 
 ## 1. Integrantes
 
-Matias Droguett 
-Juan Pablo Ugaz 
+Matias Droguett matias.droguett1@mail.udp.cl
+Juan Pablo Ugaz juan.ugaz@mail.udp.cl
 
 ## 2. Compilación y uso
 
@@ -22,7 +22,7 @@ make
 O a mano, con el comando equivalente:
 
 ```bash
-g++ -Wall -Wextra -std=c++17 src/*.cpp -o planificador
+g++ -Wall -Wextra -std=c++17 -lpthread src/*.cpp -o planificador
 ```
 
 El programa está dividido en varios archivos dentro de `src/`, así que hay que compilarlos
